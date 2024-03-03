@@ -19,7 +19,7 @@ async function closeDatabase() {
 
   try {
     await client.close();
-    console.log('Disconnected from the database');
+    // console.log('Disconnected from the database');
   } catch (error) {
     console.error('Error closing database connection:', error);
     throw error;
